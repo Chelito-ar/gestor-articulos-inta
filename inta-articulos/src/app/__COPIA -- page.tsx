@@ -1,5 +1,3 @@
-'use client'; // Indica que este es un componente de cliente (necesita interactividad)
-
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -98,6 +96,7 @@ export default function Home() {
 
 // src/app/page.tsx - MAD agregado
 
+'use client'; // Indica que este es un componente de cliente (necesita interactividad)
 
 import { createSupabaseBrowserClient } from '@/lib/supabase/client';
 import { useRouter } from 'next/navigation';
